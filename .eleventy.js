@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/style.css");
   eleventyConfig.addPassthroughCopy("./src/assets");
-  eleventyConfig.addPassthroughCopy("./src/script/bundle.js");
+  eleventyConfig.addPassthroughCopy("./src/script");
   // eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
   // Return your Object options:
   return {

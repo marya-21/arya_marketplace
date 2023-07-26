@@ -1,1 +1,3 @@
-console.log("jalan");
+import * as say from "./header.js";
+
+say.tes(); // Hello, John!
