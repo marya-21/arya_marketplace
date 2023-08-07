@@ -1,7 +1,7 @@
 const navLinkEls = document.querySelectorAll(".nav-link");
 const winndowPathName = window.location.pathname;
 
-function tes() {
+function activeLink() {
   navLinkEls.forEach((navLinkEl) => {
     const navLinkPathName = new URL(navLinkEl.href).pathname;
     if (
@@ -14,4 +14,4 @@ function tes() {
   });
 }
 
-export { tes };
+export { activeLink };

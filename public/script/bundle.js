@@ -1,3 +1,3 @@
-import * as say from "./header.js";
+import * as header from "./header.js";
 
-say.tes(); // Hello, John!
+header.activeLink(); // Hello, John!
