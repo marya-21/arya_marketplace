@@ -114,6 +114,18 @@ li {
 }
 
 /* set main content */
-.main_content {
+/* .main_content {
   margin: 3rem 2rem;
+} */
+
+.container-carousel {
+  height: 50vw;
+  width: 100%;
+  margin: 0px -2px !important;
+}
+
+.img-size {
+  max-height: 100%;
+  /* width: 100%; */
+  max-width: 100%;
 }
